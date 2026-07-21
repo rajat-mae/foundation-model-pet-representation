@@ -1,0 +1,59 @@
+# Python and Jupyter
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Environments
+.venv/
+venv/
+env/
+conda-env/
+
+# Editors and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Patient, clinical, and imaging data
+data/
+datasets/
+clinical_data/
+images/
+dicom/
+nifti/
+*.dcm
+*.ima
+*.nii
+*.nii.gz
+
+# DINOv2 checkout and pretrained weights
+third_party/dinov2/
+pretrained_dinov2_weights/
+weights/
+models/
+*.pth
+*.pt
+*.ckpt
+*.safetensors
+
+# Generated artifacts
+outputs/
+results/
+artifacts/
+plots/
+figures/
+checkpoints/
+logs/
+*.npy
+*.npz
+*.pkl
+*.pickle
+
+# Credentials and environment files
+.env
+.env.*
+*.pem
+*.key
