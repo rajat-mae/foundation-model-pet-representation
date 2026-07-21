@@ -97,10 +97,10 @@ Some DINOv2 or mixed-precision operations may still require adjustment on MPS. C
 
 ## 4. Clone this repository
 
-After the repository has been published:
+
 
 ```bash
-git clone https://github.com/<YOUR-USERNAME>/<YOUR-REPOSITORY>.git
+git clone https://github.com/rajat-mae/foundation-model-pet-representation.git
 cd <YOUR-REPOSITORY>
 ```
 
